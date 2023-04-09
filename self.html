@@ -4,9 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>자기소개</title>
+    <style>
+        *{
+            color: white;
+        }
+        body{
+            background-image: url(./44.jpg);
+        }
+        table{
+            width: 70%;
+            border: 1px solid #222;
+            border-collapse: collapse;
+        }
+        thead{
+            background: black;
+        }
+        th,td{
+            border: 1px solid #ccc;
+            padding: 5px;
+            font-size: 0.8em;
+        }
+        #grid{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            margin: 150px;
+        }
+        #grid #main{
+            padding-left: 100px;
+        }
+        mark{
+            color: black;
+            background-color: skyblue;
+        }
+    </style>
 </head>
 <body>
-    
+    <div id="grid">
+        <aside>
+            <div id="namecard">
+                <img src="./me.jpg" alt="이미지" width="200" height="250">
+                <h1>Seunghyun</h1>
+                <p><strong>희망직군<mark>프론트엔드</mark></p>
+                <p🌱</p>
+            </div>
+            <div id="detail">
+                <p>📝</p>
+                <a href="" class="fab fa-email"><span class="blind">EMAIL</span></a><br>
+                <a href="" class="fab fa-github"><span class="blind">GITHUB</span></a>
+
+            </div>
+            <div id="sns">
+                <h2>SNS</h2>
+                <a href="" class="fab fa-instagram"><span class="blind">INSTAGRAM</span></a><br>
+                <a href="" class="fab fa-twitter"><span class="blind">TWITTER</span></a>
+            </div>
+            <br>
+            <div>
+                📲<br>
+                +82 10-7604-6780
+            </div>
+            <br>
+            <div>
+                <strong>💿프리스타일 - Y</strong>
+            </div>
+        </aside>
+
+        <div id="main">
+                <h1 class="subtitle"><mark>HEY, I'M Seunghyun!</mark>👋</h1>
+                <p><strong>21학번 / 컴퓨터 공학과 </strong></p>
+                <hr>
+            </section>
+            <section>
+                <h2 class="subtitle">SELF - INTRODUCTION</h2>
+                <ul>
+                    <li>WHO AM I? 👩
+                        <ul>
+                            <li>자라나는 새싹🌱</li>
+                            <li>무뚝뚝해 보이지만 내면은 따듯함</li>
+                            <li>ISTJ</li>
+                        </ul>
+                    </li>
+                    <br>
+                    <li>WHAT I LOVE! ❤️
+                        <ul>
+                            <li>파랑, 검정색</li>
+                            <li>멍 때리기</li>
+                            <li>영화, 노래, 대화</li>
+                        </ul>
+                    </li>
+                </ul>
+                <hr>
+            </section>
+            <section>
+                <h2 class="subtitle">ING-🆗</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>출신학교</th>
+                            <th>전공</th>
+                            <th>기간</th>
+                            <th>구분</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>부산외국어대학교</td>
+                            <td>컴퓨터공학과</td>
+                            <td>2021-03-02</td>
+                            <td>재학중</td>
+                        </tr>
+                        <tr>
+                            <td>멋쟁이 사자처럼</td>
+                            <td>-</td>
+                            <td>2023-03</td>
+                            <td>진행중</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <hr>
+            <h2><mark>BE ADDICTED TO BETTERING YOURSELF</mark></h2>
+        </div>
+    </div>
 </body>
 </html>
